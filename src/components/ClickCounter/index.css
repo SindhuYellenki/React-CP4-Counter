@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f5f8;
+}
+.heading {
+  font-size: 40px;
+  font-weight: 800;
+  font-family: 'Roboto';
+  color: black;
+}
+.count {
+  font-size: 40px;
+  font-weight: 800;
+  font-family: 'Roboto';
+  color: #c20a72;
+}
+.desc {
+  font-size: 20px;
+  font-weight: 800;
+  font-family: 'Roboto';
+  color: #2d3a35;
+}
+.button {
+  background-color: #007bff;
+  height: 40px;
+  width: 100px;
+  border: 5px;
+  color: white;
+  font-size: 16px;
+  font-family: 'Roboto';
+  cursor: pointer;
+  outline: none;
+}
